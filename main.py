@@ -22,10 +22,9 @@ sign_in = driver.find_element(By.XPATH,value="/html/body/div[1]/header/nav/div/a
 sign_in.click()
 username_area = driver.find_element(By.ID,value="username")
 password_area = driver.find_element(By.ID,value="password")
-"""username = input("Enter Your Username: ")
-password = input("Enter Your password: ")"""
-username="teomanaknc@outlook.com"
-password="Realmadrid_12"
+username = input("Enter Your Username: ")
+password = input("Enter Your password: ")
+
 username_area.send_keys(username)
 password_area.send_keys(password)
 password_area.send_keys(Keys.ENTER)
